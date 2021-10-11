@@ -9,12 +9,12 @@ import { Course } from '../model/course';
 export class CoursesComponent implements OnInit {
 
   courses: Course[] = [
-    { _id: '1', name : 'ENCL-400-002', category: 'Small Band Jazz Rating  3'}
+    { _id: '1', name : 'Java 8', category: 'Data Struct', }
   ];
-  displayedColumns = ['name', 'category'];
+  displayedColumns = ['name', 'category',];
 
   constructor() {
-    // this.courses = [];
+    // this.cocurses = [];
   }
 
   ngOnInit(): void {
